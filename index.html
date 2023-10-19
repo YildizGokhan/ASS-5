@@ -1,66 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Spor Haberleri</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Spor Haberleri</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div class="container">
-        <h1>Spor Haberleri</h1>
-        <!-- -------------------------------- MAIN --------------------------------- -->
-        <!-- -------------------------------- MAIN --------------------------------- -->
-        <!-- -------------------------------- MAIN --------------------------------- -->
-        <main>
-            <div class="content content1">
-                <img src="" alt="">
-                <div class="information">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, itaque!</p>
-                    <h4>Türkiye</h4>
-                </div>
-
-            </div>
-            <div class="content content2">
-                <img src="" alt="">
-                <div class="information">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, itaque!</p>
-                    <h4>Türkiye</h4>
-                </div>
-            </div>
-            <div class="content content3">
-                <img src="" alt="">
-                <div class="information">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, itaque!</p>
-                    <h4>Türkiye</h4>
-                </div>
-            </div>
-            <div class="content content4">
-                <img src="" alt="">
-                <div class="information">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, itaque!</p>
-                    <h4>Türkiye</h4>
-                </div>
-            </div>
-            <div class="content content5">
-                <img src="" alt="">
-                <div class="information">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, itaque!</p>
-                    <h4>Türkiye</h4>
-                </div>
-            </div>
-            <div class="content content6">
-                <img src="" alt="">
-                <div class="information">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, itaque!</p>
-                    <h4>Türkiye</h4>
-                </div>
-            </div>
-           
-        </main>
-    </div>
-</body> 
-
+			<!-- main  -->
+			<main>
+				<a href="#" class="content content1">
+					<div class="box box1">
+						<img src="./img/a-1.jpeg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="content content2">
+					<div class="box box2">
+						<img src="./img/a-3.jpg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="content content3">
+					<div class="box box3">
+						<img src="./img/a-2.jpeg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="content content4">
+					<div class="box box4">
+						<img src="./img/a-4.jpeg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="content content5">
+					<div class="box box5">
+						<img src="./img/a-5.jpg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div></a
+				>
+				<a href="#" class="content content6"
+					><div class="box box6">
+						<img src="./img/a-6.jpg" alt="" />
+						<div class="information">
+							<p>
+								Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Illo, et.
+							</p>
+							<h4>Türkiye</h4>
+						</div>
+					</div></a
+				>
+			</main>
+			<!-- end of main  -->
+		</div>
+        <script>
+            const box1 = document.querySelector(".box1 img")
+            // box1.style.display = "none"
+            box1.addEventListener("mouseover",()=>{
+                box1.src = "./img/Flag.png"
+            })
+            box1.addEventListener("mouseout",()=>{
+                box1.src = "./img/a-1.jpeg"
+                // element.classList.remove('');
+                box1.classList.add('class-1');           
+            })
+            
+        </script>
+	</body>
 </html>
